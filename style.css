@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.conteiner{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+.fundo{
+    background-image: url(gravida.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.logo{
+    float: left;
+    position: absolute;
+    margin: 10px 30px;
+}
+.logo img{
+    width: 100px;
+    height:100px;
+    
+}
+.titulo-desc{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    padding-top: 150px;
+  
+}
+.titulo-desc h1{
+   
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+}
+.titulo-desc h2{
+    margin-left:127px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+.titulo-desc .h1ges{
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7AA64E;
+    padding-bottom: 20px;
+}
+.conteiner-video{
+    width: 400px;
+    height: 230px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 220px;
+
+
+    
+}
+.video-apres{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(157, 161, 161);
+    position: relative;
+    float: right;
+    margin-top: 200px;
+    margin-right: 20%;
+    
+}
