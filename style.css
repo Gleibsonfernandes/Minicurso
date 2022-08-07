@@ -4,19 +4,18 @@
     box-sizing: border-box;
     
 }
+.clear{
+    clear: both;
+}
 .conteiner{
     margin: 0 auto;
     width: 90%;
-    height: 300px;
-  
 }
 body{
     background-color:#7AA64E88; 
 }
 .logo{
     width: 100%;
-    height: 150px;
-    
 }
 .logo-img{
     margin-left: 30px;
@@ -25,4 +24,30 @@ body{
     margin-top: 30px;
     width: 150px;
     height: 150px;
+}
+
+.titulo-principal{
+    width: 50%;
+    background-color: rgb(110, 114, 114);
+    float: left;
+    padding-right: 10%;
+}
+
+.titulo-principal h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    color: #0A2626;
+    font-size: 48px;
+    text-align: right;
+}
+.titulo-principal h2{
+    font-family: 'Cormorant Garamond', serif;
+    color: #0A2626;
+    text-align: right;
+}
+.video-principal{
+    width: 50%;
+    height: 100px;
+    background-color:blueviolet;
+    float: right;
 }
